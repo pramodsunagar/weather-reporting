@@ -15,14 +15,17 @@ public class WeatherController {
 
     private final WeatherService weatherService;
 
+    // Constructor injection of WeatherService
     public WeatherController(WeatherService weatherService) {
         this.weatherService = weatherService;
     }
 
+    // Endpoint to get current weather for a city
     @GetMapping("/weather")
     public ResponseEntity<?> getWeather(@RequestParam String city) {
         try {
             var result = weatherService.getCurrentTemperature(city);
+            // Return the weather data as JSON
             return ResponseEntity.ok(Map.of(
                     "city", city,
                     "temperature", result.getTemperature(),
