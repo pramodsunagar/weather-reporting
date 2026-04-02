@@ -1,0 +1,4 @@
+com/example/weather/controller/WeatherController.class
+com/example/weather/WeatherReportingApplication.class
+com/example/weather/service/WeatherService.class
+com/example/weather/service/WeatherResult.class

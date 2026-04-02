@@ -1,0 +1,4 @@
+/workspaces/weather-reporting/src/main/java/com/example/weather/service/WeatherService.java
+/workspaces/weather-reporting/src/main/java/com/example/weather/service/WeatherResult.java
+/workspaces/weather-reporting/src/main/java/com/example/weather/controller/WeatherController.java
+/workspaces/weather-reporting/src/main/java/com/example/weather/WeatherReportingApplication.java
